@@ -4,10 +4,54 @@ encrypt_gui([imgui_form | winapi_form] : lightuserdata)
 	returns encrypted_gui_data : string
 
 save_gui([encrypted_gui_data : string | imgui_form | winapi_form] : lightuserdata)
-	returns status : number
+	returns status : number (0 = success, 1 = failure)
 
-ImGui.new([gui_title : string])
-	returns: imgui_form : lightuserdata
+ImGui.new([class_name : string]) [if class_name is nil it defaults to "WinApi_Form"]
+	returns: imgui_form : table (you can index properties and set them)
 	
-WinApi.new([gui_title : string])
-	returns winapi_form : lightuserdata
+WinApi.new([class_name : string]) [if class_name is nil it defaults to "WinApi_Form"]
+	returns winapi_form : table (you can index properties and set them)
+
+--------------------------------------------------
+
+imgui_form : table {
+	internal : bool (default: false) [if true, process needs to be set as the executables name]
+	process : string (default: nil) [only needs to be set if internal is true)
+	
+	title : string (default: nil)
+	controls : table {
+		add(control : lightuserdata)
+			returns nil
+		
+		remove(control : lightuserdata)
+			returns nil
+		
+		retrieve([max_amount : number])
+			returns controls : table (if max_amount is set, it will contain max_amount or less)
+	}
+	position : table { [set these before its ran and it will start at this position]
+		x : number (default: 0)
+		y : number (default: 0)
+	}
+}
+
+winapi_form : table {
+	internal : bool (default: false) [if true, process needs to be set as the executables name]
+	process : string (default: nil) [only needs to be set if internal is true)
+	
+	title : string (default: nil)
+	controls : table {
+		add(control : lightuserdata)
+			returns nil
+		
+		remove(control : lightuserdata)
+			returns nil
+		
+		retrieve([max_amount : number])
+			returns controls : table (if max_amount is set, it will contain max_amount or less)
+	}
+	position : table { [set these before its ran and it will start at this position]
+		x : number (default: 0)
+		y : number (default: 0)
+	}
+}
