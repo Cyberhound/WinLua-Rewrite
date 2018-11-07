@@ -33,6 +33,10 @@ imgui_form : table {
 		x : number (default: 0)
 		y : number (default: 0)
 	}
+	size : table {
+		width : number (default: auto)
+		height : number (default: auto)
+	}
 }
 
 winapi_form : table {
@@ -53,5 +57,28 @@ winapi_form : table {
 	position : table { [set these before its ran and it will start at this position]
 		x : number (default: 0)
 		y : number (default: 0)
+	}
+	size : table {
+		width : number (required)
+		height : number (required)
+	}
+}
+
+control : table {
+	connect(event_name : string, event : function)
+		returns event : table {
+			disconnect()
+				returns nil
+			}
+	
+	text : string
+	
+	position : table { [set these before its ran and it will start at this position]
+		x : number (default: 0)
+		y : number (default: 0)
+	}
+	size : table {
+		width : number (required)
+		height : number (required)
 	}
 }
