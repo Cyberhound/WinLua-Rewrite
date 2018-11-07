@@ -1,0 +1,13 @@
+--==== WinLua - Api ====--
+
+encrypt_gui([imgui_form | winapi_form] : lightuserdata)
+	returns encrypted_gui_data : string
+
+save_gui([encrypted_gui_data : string | imgui_form | winapi_form] : lightuserdata)
+	returns status : number
+
+ImGui.new([gui_title : string])
+	returns: imgui_form : lightuserdata
+	
+WinApi.new([gui_title : string])
+	returns winapi_form : lightuserdata
