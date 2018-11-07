@@ -10,7 +10,6 @@
 
 [Credits](#credits)
 
-
 [Api](/doc/api.html)
 
 ---
@@ -18,12 +17,12 @@
 <a name="implementation"></a>
 ## Implementation
 
-<p>
-**All you have to do is include all of these files into your project and include winlua.h
-simple as that! :D**
-***Note: WinLua does not come with lua, you will need to include that
-in your project as well. Located <a href="https://www.lua.org/ftp/lua-5.1.5.tar.gz">here (direct)</a> or you can use <a href="https://www.lua.org/versions.html">another version</a>. I recommend lua 5.1.5, as it is built with lua 5.1.5***
-</p>
+```
+All you have to do is include all of these files into your project and include winlua.h
+simple as that! :D
+```
+**Note: WinLua does not come with lua, you will need to include that
+in your project as well. Located <a href="https://www.lua.org/ftp/lua-5.1.5.tar.gz">here (direct)</a> or you can use <a href="https://www.lua.org/versions.html">another version</a>. I recommend lua 5.1.5, as it is built with lua 5.1.5**
 
 ---
 
@@ -37,10 +36,10 @@ in your project as well. Located <a href="https://www.lua.org/ftp/lua-5.1.5.tar.
 
 <a href="https://discord.gg/rapUxNa" target="_blank">`Seal Discord`</a>
 
-<a>`Cyberhound - Founder & Developer`</a>
-
-<a>`KingEzz - Developer`</a>
-
-<a>`Seal Community - Support`</a>
+```
+Cyberhound - Founder & Developer
+KingEzz - Developer
+Seal Community - Support
+```
 
 ---
