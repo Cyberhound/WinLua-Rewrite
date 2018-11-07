@@ -10,7 +10,7 @@
 
 [Credits](#credits)
 
-[Api](/doc/api.html)
+[Api](https://github.com/Cyberhound/WinLua-Rewrite/blob/master/doc/api.txt)
 
 ---
 
