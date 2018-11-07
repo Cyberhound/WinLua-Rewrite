@@ -6,10 +6,12 @@
 ---
 
 ### Table of Contents
-- [Implementation](#implementation)
-- [Credits](#credits)
+[Implementation](#implementation)
 
-- [Api](/doc/api.html)
+[Credits](#credits)
+
+
+[Api](/doc/api.html)
 
 ---
 
@@ -35,10 +37,10 @@ in your project as well. Located <a href="https://www.lua.org/ftp/lua-5.1.5.tar.
 
 <a href="https://discord.gg/rapUxNa" target="_blank">`Seal Discord`</a>
 
-<a>
-`Cyberhound - Founder & Developer`
-`KingEzz - Developer`
-`Seal Community - Support`
-</a>
+<a>`Cyberhound - Founder & Developer`</a>
+
+<a>`KingEzz - Developer`</a>
+
+<a>`Seal Community - Support`</a>
 
 ---
