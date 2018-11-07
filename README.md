@@ -31,7 +31,7 @@ in your project as well. Located <a href="https://www.lua.org/ftp/lua-5.1.5.tar.
 
 | <a>**Cyberhound**</a> | <a>**KingEzz**</a> |
 | :---: | :---: |
-| [![Cyberhound](https://avatars0.githubusercontent.com/u/28367274?v=4&s=150)]()    | [![KingEzz](https://avatars1.githubusercontent.com/u/10615188?s=150&v=4)]()
+| [![Cyberhound](https://avatars0.githubusercontent.com/u/28367274?v=4&s=150)](/README.md)    | [![KingEzz](https://avatars1.githubusercontent.com/u/10615188?s=150&v=4)](/README.md)
 | <a>`Cyberhound#5672`</a> | <a>`KingEzz`</a> |
 
 <a href="https://discord.gg/rapUxNa" target="_blank">`Seal Discord`</a>
