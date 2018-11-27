@@ -32,7 +32,7 @@ in your project as well. Located <a href="https://www.lua.org/ftp/lua-5.1.5.tar.
 | <a>**Cyberhound**</a> | <a>**ocornut (ImGui)**</a> | <a>**Lua**</a> |
 | :---: | :---: | :---: |
 | [![Cyberhound](https://avatars0.githubusercontent.com/u/28367274?v=4&s=150)](/README.md)    | [![ocornut](https://avatars3.githubusercontent.com/u/8225057?v=4&s=150)](https://github.com/ocornut/imgui/)     | [![Lua](https://www.lua.org/images/lua-logo.gif)](http://www.lua.org/)
-| <a>`Cyberhound#5672`</a> | <a>`ocornut`</a> |
+| <a>`Cyberhound#5672`</a> | <a>`ocornut`</a> | <a>`Lua`</a> |
 
 <a href="https://discord.gg/rapUxNa" target="_blank">`Seal Discord`</a>
 
