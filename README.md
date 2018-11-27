@@ -21,8 +21,11 @@
 All you have to do is include all of these files into your project and include winlua.h
 simple as that! :D
 ```
-**Note: WinLua does not come with lua, you will need to include that
-in your project as well. Located <a href="https://www.lua.org/ftp/lua-5.1.5.tar.gz">here (direct)</a> or you can use <a href="https://www.lua.org/versions.html">another version</a>. I recommend lua 5.1.5, as it is built with lua 5.1.5**
+**Note: WinLua does comes with Lua, you will not need to include that
+in your project. You can use <a href="https://www.lua.org/versions.html">another version</a>. I recommend lua 5.1.5, as it is built with lua 5.1.5**
+
+**Note: WinLua does comes with ImGui, you will not need to include that
+in your project. You can use <a href="https://https://github.com/ocornut/imgui/">the latest</a>. I recommend the one it has, as it is built with that version, and it may cause errors and some fixing to do if you do use the latest.**
 
 ---
 
