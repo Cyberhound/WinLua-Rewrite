@@ -41,7 +41,7 @@ in your project. You can use <a href="https://https://github.com/ocornut/imgui/"
 
 ```
 Cyberhound - Founder & Developer
-KingEzz - Developer
+ringarang - Developer
 Seal Community - Support
 ```
 
