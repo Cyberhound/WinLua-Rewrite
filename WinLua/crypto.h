@@ -46,6 +46,19 @@ private:
 		return ret;
 	}
 public:
+	void set_key(std::string key) {
+		encryption_key = key;
+	}
+
+	void set_seed(int seed) {
+		encryption_seed = seed;
+	}
+
+	void set_key(std::string key, int seed) {
+		set_key(key); //lazy lol
+		set_seed(seed);
+	}
+
 	std::string encrypt(std::string decrypted, std::string key = "") {
 		if (key == "") {
 			key = encryption_key;
