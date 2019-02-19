@@ -32,10 +32,10 @@ in your project. You can use <a href="https://https://github.com/ocornut/imgui/"
 <a name="credits"></a>
 ### Credits / Development Team
 
-| <a>**Cyberhound**</a> | <a>**ocornut (ImGui)**</a> | <a>**Lua**</a> | <a>**ringarang**</a> |
-| :---: | :---: | :---: | :---: |
-| [![Cyberhound](https://avatars0.githubusercontent.com/u/28367274?v=4&s=150)](https://github.com/Cyberhound)    | [![ocornut](https://avatars3.githubusercontent.com/u/8225057?v=4&s=150)](https://github.com/ocornut/imgui/)     | [![Lua](https://www.lua.org/images/lua-logo.gif)](http://www.lua.org/)     | [![ringarang](https://avatars3.githubusercontent.com/u/32712644?v=4&s=150)](https://github.com/ringarang)
-| <a>`Cyberhound#5672`</a> | <a>`ocornut`</a> | <a>`Lua`</a> | <a>`ringarang`</a> |
+| <a>**Cyberhound**</a> | <a>**ocornut (ImGui)**</a> | <a>**Lua**</a> |
+| :---: | :---: | :---: |
+| [![Cyberhound](https://avatars0.githubusercontent.com/u/28367274?v=4&s=150)](https://github.com/Cyberhound)    | [![ocornut](https://avatars3.githubusercontent.com/u/8225057?v=4&s=150)](https://github.com/ocornut/imgui/)     | [![Lua](https://www.lua.org/images/lua-logo.gif)](http://www.lua.org/)     |
+| <a>`Cyberhound#5672`</a> | <a>`ocornut`</a> | <a>`Lua`</a> |
 
 <a href="https://discord.gg/rapUxNa" target="_blank">`Seal Discord`</a>
 
